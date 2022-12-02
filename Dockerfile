@@ -18,8 +18,6 @@ ENV   CRON_DAILY="25 6    * * *"
 ENV  CRON_WEEKLY="47 6    * * 7"
 ENV CRON_MONTHLY="52 6    1 * *"
 
-ENV CRON_T0000="0 0 * * *"
-ENV CRON_T0100="0 1 * * *"
 
 COPY entry.sh .
 
