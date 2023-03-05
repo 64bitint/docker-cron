@@ -11,7 +11,7 @@ jobs:
         uses: christian-korneck/update-container-description-action@v1
         env:
           DOCKER_USER: 64bitint
-          DOCKER_PASS: ${{ secrets.DOCKER_PASS }}
+          DOCKER_PASS: ${{ secrets.DOCKER_PASSWORD }}
         with:
           destination_container_repo: 64bitint/cron
           provider: dockerhub
