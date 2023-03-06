@@ -10,8 +10,8 @@ docker run -d \
     -e DAILY="echo 'runs every day'" \
     -e WEEKLY="echo 'runs every week'" \
     -e MONTHLY="echo 'runs every month'" \
-    -e T0645="echo \"It is 6:45 AM in $TZ\"" \
-    -e T1620="echo \"It is 4:20 PM in $TZ\"" \
+    -e T0645="echo \"It is 6:45 AM in \$TZ\"" \
+    -e T1620="echo \"It is 4:20 PM in \$TZ\"" \
     --restart=always \
     --name=docker-cron \
     64bitint/cron
