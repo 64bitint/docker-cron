@@ -35,7 +35,7 @@ docker run -d \
 
 **CRON_DAILY** Time to run the daily command in crontab format (Default: ```25 6    * * *```)
 
-**CRON_WEEKLY** Time to run the weekly command in crontab format (Default: ```47 6    * * 7```)
+**CRON_WEEKLY** Time to run the weekly command in crontab format (Default: ```47 6    * * 0```)
 
 **CRON_MONTHLY** Time to run the mothly command in crontab format (Default: ```52 6    1 * *```)
 

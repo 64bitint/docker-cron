@@ -15,7 +15,7 @@ ENV TZ=America/Toronto
 
 ENV  CRON_HOURLY="17 *    * * *"
 ENV   CRON_DAILY="25 6    * * *"
-ENV  CRON_WEEKLY="47 6    * * 7"
+ENV  CRON_WEEKLY="47 6    * * 0"
 ENV CRON_MONTHLY="52 6    1 * *"
 
 
